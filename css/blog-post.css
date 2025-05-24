@@ -1,0 +1,57 @@
+/* Additional styles for blog-lido.html */
+.blog-post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.blog-post-header {
+    margin-bottom: 2rem;
+}
+
+.blog-post-image {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.blog-post-image img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post-content {
+    line-height: 1.8;
+}
+
+.blog-post-video {
+    margin: 2rem 0;
+}
+
+.blog-post-meta {
+    color: #666;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.blog-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+.blog-nav-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.blog-nav-link:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
